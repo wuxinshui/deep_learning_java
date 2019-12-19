@@ -37,7 +37,7 @@ public class Word2vecController {
     }
 
     @GetMapping("/matches")
-    public Object getMatches(@RequestParam(defaultValue = "") String name) throws Searcher.UnknownWordException {
+    public Object getMatches(@RequestParam(defaultValue = "originated",required = false) String name) throws Searcher.UnknownWordException {
         return word2vecService.train().forSearch().getMatches(name, 10);
     }
 
