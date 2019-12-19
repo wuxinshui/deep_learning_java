@@ -30,6 +30,11 @@
             <artifactId>word2vecjava_2.11</artifactId>
             <version>1.0-ALLENAI-4</version>
         </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>23.0</version>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
