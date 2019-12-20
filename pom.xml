@@ -17,6 +17,7 @@
     <modules>
         <!--word2vec demo-->
         <module>deep_learning_word2vec</module>
+        <module>deep_learning_hanlp</module>
     </modules>
 
     <build>
